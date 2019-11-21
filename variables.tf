@@ -3,7 +3,7 @@
 ####################
 variable "project" {
   description = "Project name for tags and resource naming"
-  default = "flattireco"
+  default = "lambda_testing_playground"
 }
 
 variable "stage_name" {

@@ -1,6 +1,6 @@
 variable "lambda_name" {
   description = "The name of the lambda function"
-  default = "flattireco_auth"
+  default = "lambda_testing_auth"
 }
 
 variable "project" {
@@ -58,10 +58,6 @@ variable lambda_subnet_ids {
   description = "VPC subnet IDs."
   default     = []
   type        = "list"
-}
-
-variable auth_dynamo_arn {
-  description = "auth table arn"
 }
 
 variable lightspeed_client_id {
