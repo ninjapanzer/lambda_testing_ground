@@ -36,7 +36,7 @@ module "auth_api" {
 
 module "auth_lambda" {
   source = "./auth_lambda"
-  lambda_name = "flattireco_auth"
+  lambda_name = "lambda_testing_auth"
   project = "${var.project}"
   stage_name = "${var.stage_name}"
   lightspeed_client_id = "${var.lightspeed_client_id}"

@@ -1,1 +1,1 @@
-# flattireco_terraform
+# lambda_testing_playground terraform
